@@ -1,4 +1,11 @@
 const projectCards = document.querySelectorAll(".project-card");
+const avatar = document.querySelector(".avatar-img");
+
+if (avatar) {
+  avatar.addEventListener("error", () => {
+    avatar.style.display = "none";
+  });
+}
 
 projectCards.forEach((card) => {
   const button = card.querySelector(".project-toggle");

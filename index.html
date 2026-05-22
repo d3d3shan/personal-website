@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="董山的个人主页：具身智能、机器人、事件相机、FPGA 与视觉系统项目经历。">
+  <meta name="description" content="董山的个人主页：复旦大学电子信息科学与技术（光子计划），具身智能、机器人视觉、事件相机与嵌入式系统项目经历。">
   <title>董山 | 个人主页</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,49 +12,47 @@
 </head>
 <body>
   <div class="site-shell">
-    <!-- 首页：姓名、简介、联系方式 -->
+    <!-- 首页：姓名、简介、联系方式、头像 -->
     <header class="hero" id="home">
       <nav class="topbar" aria-label="主导航">
         <a class="brand" href="#home">DS</a>
         <div class="nav-links">
           <a href="#education">教育荣誉</a>
-          <a href="#projects">科研项目</a>
+          <a href="#projects">项目经历</a>
           <a href="#skills">技能</a>
-          <a href="mailto:23307130011@m.fudan.edu.cn">联系</a>
+          <a href="#contact">联系</a>
         </div>
       </nav>
 
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Fudan University · Embodied AI & Robotics</p>
+          <p class="eyebrow">Fudan University · Electronic Information Science and Technology</p>
           <h1>董山</h1>
-          <p class="lead">复旦大学电子信息科学与技术（光子计划）本科生，关注具身智能、机器人视觉、事件相机、FPGA 部署与低延迟感知系统。</p>
+          <p class="lead">复旦大学电子信息科学与技术（光子计划）本科生，面向具身智能与机器人方向，具备视觉算法、嵌入式开发、硬件调试与系统集成经验。</p>
+
           <div class="contact-row" aria-label="联系方式">
             <a href="mailto:23307130011@m.fudan.edu.cn">23307130011@m.fudan.edu.cn</a>
             <span>+86 173-2117-2051</span>
           </div>
         </div>
 
-        <aside class="signal-panel" aria-label="个人方向概览">
-          <div class="orbital-map" aria-hidden="true">
-            <span class="node node-a"></span>
-            <span class="node node-b"></span>
-            <span class="node node-c"></span>
-            <span class="track track-a"></span>
-            <span class="track track-b"></span>
+        <aside class="profile-card" aria-label="个人信息卡片">
+          <div class="avatar-frame">
+            <img src="images/avatar.jpg" alt="董山头像" class="avatar-img">
+            <div class="avatar-fallback" aria-hidden="true">董山</div>
           </div>
-          <dl>
+          <dl class="profile-facts">
             <div>
-              <dt>研究方向</dt>
-              <dd>具身智能 / 机器人</dd>
+              <dt>学校</dt>
+              <dd>复旦大学</dd>
             </div>
             <div>
-              <dt>系统能力</dt>
-              <dd>视觉感知 + 硬件部署</dd>
+              <dt>专业</dt>
+              <dd>电子信息科学与技术（光子计划）</dd>
             </div>
             <div>
-              <dt>关键词</dt>
-              <dd>SNN · YOLO · FPGA · ROS</dd>
+              <dt>方向</dt>
+              <dd>具身智能 · 机器人视觉 · 嵌入式系统</dd>
             </div>
           </dl>
         </aside>
@@ -62,82 +60,71 @@
     </header>
 
     <main>
-      <!-- 教育与荣誉：大学与主要奖项 -->
+      <!-- 教育与荣誉：大学、竞赛、证书、专利 -->
       <section class="section split-section" id="education">
         <div class="section-heading">
           <p class="eyebrow">Education & Honors</p>
           <h2>教育与荣誉</h2>
         </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span class="marker"></span>
-            <h3>复旦大学</h3>
-            <p>电子信息科学与技术（光子计划）</p>
+        <div class="dense-stack">
+          <article class="info-panel">
+            <h3>教育背景</h3>
+            <p>复旦大学 · 电子信息科学与技术（光子计划）</p>
+            <p class="muted">重点能力：电子信息、光电系统、嵌入式开发、机器人视觉与 AI/ML 应用。</p>
           </article>
-          <article class="timeline-item">
-            <span class="marker"></span>
-            <h3>全国大学生数学竞赛</h3>
-            <p>上海省一等奖（2025）</p>
-          </article>
-          <article class="timeline-item">
-            <span class="marker"></span>
-            <h3>全国大学生光电设计竞赛</h3>
-            <p>东部区赛一等奖，总决赛全国三等奖</p>
-          </article>
-          <article class="timeline-item">
-            <span class="marker"></span>
-            <h3>全国大学生电子设计竞赛</h3>
-            <p>省二等奖</p>
-          </article>
-          <article class="timeline-item">
-            <span class="marker"></span>
-            <h3>专利与英语能力</h3>
-            <p>两项实用新型专利，英语四六级优异成绩</p>
-          </article>
+
+          <div class="honor-grid">
+            <article>
+              <strong>全国大学生数学竞赛</strong>
+              <span>上海赛区一等奖（2025）</span>
+            </article>
+            <article>
+              <strong>全国大学生光电设计竞赛</strong>
+              <span>东部区赛一等奖</span>
+            </article>
+            <article>
+              <strong>全国大学生光电设计竞赛</strong>
+              <span>总决赛全国三等奖</span>
+            </article>
+            <article>
+              <strong>全国大学生电子设计竞赛</strong>
+              <span>省二等奖</span>
+            </article>
+            <article>
+              <strong>实用新型专利</strong>
+              <span>两项</span>
+            </article>
+            <article>
+              <strong>英语能力</strong>
+              <span>英语四级、六级优异成绩</span>
+            </article>
+          </div>
         </div>
       </section>
 
-      <!-- 科研/项目经历：卡片点击展开详细介绍 -->
+      <!-- 科研/项目经历：按照结项时间先后顺序排列，点击展开 -->
       <section class="section" id="projects">
         <div class="section-heading compact">
           <p class="eyebrow">Research & Projects</p>
           <h2>科研与项目经历</h2>
         </div>
 
-        <div class="project-grid">
+        <div class="project-list">
           <article class="project-card is-open">
             <button class="project-toggle" type="button" aria-expanded="true">
               <span>
-                <small>2025.04 - 2026.03 · 第一主持人</small>
-                <strong>腾飞科创项目</strong>
-              </span>
-              <span class="toggle-icon" aria-hidden="true"></span>
-            </button>
-            <div class="project-detail">
-              <h3>基于 DV 事件相机的动态物体检测和 FPGA 部署实现</h3>
-              <p>利用事件相机采集动态物体数据，结合脉冲神经网络（SNN）进行分析与识别，并面向 FPGA 部署实现低延迟实时检测。</p>
-              <ul>
-                <li>角色：第一主持人</li>
-                <li>重点：事件视觉、SNN 分析、FPGA 实时部署</li>
-                <li>成果：完成项目结项，可作为个人主页核心科研展示</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <button class="project-toggle" type="button" aria-expanded="false">
-              <span>
-                <small>竞赛项目 · 组员</small>
+                <small>竞赛项目 · 组员 · 光电/机器人视觉</small>
                 <strong>全国大学生光电设计竞赛</strong>
               </span>
               <span class="toggle-icon" aria-hidden="true"></span>
             </button>
             <div class="project-detail">
               <h3>激光打靶与视觉系统调试</h3>
-              <p>使用 ROS、Jetson-Nano、YOLO 与 MaixCAM，完成激光打靶及视觉相关软硬件调试，并参与 3D 打印外壳制作。</p>
+              <p>围绕激光打靶任务完成机器人视觉链路与现场系统调试，使用 ROS、Jetson-Nano、YOLO 与 MaixCAM 完成视觉识别、相机调试、控制联调和结构外壳制作。</p>
               <ul>
-                <li>角色：组员</li>
-                <li>重点：ROS 机器人系统、YOLO 视觉识别、嵌入式相机调试</li>
+                <li>角色：组员，参与软硬件调试与系统集成</li>
+                <li>技术：ROS、Jetson-Nano、YOLO、MaixCAM、3D 打印</li>
+                <li>成果：东部区赛一等奖，总决赛全国三等奖</li>
               </ul>
             </div>
           </article>
@@ -145,17 +132,37 @@
           <article class="project-card">
             <button class="project-toggle" type="button" aria-expanded="false">
               <span>
-                <small>竞赛项目 · 组员</small>
+                <small>竞赛项目 · 组员 · 嵌入式控制</small>
                 <strong>全国大学生电子设计竞赛</strong>
               </span>
               <span class="toggle-icon" aria-hidden="true"></span>
             </button>
             <div class="project-detail">
               <h3>小车组装与机械臂控制</h3>
-              <p>基于 STM32 与 MaixCAM 构建视觉伺服控制小车，开发现场调参 UI，并通过 3D 打印固定设备完成激光打靶项目。</p>
+              <p>基于 STM32 与 MaixCAM 构建视觉伺服控制小车，完成小车组装、机械臂控制、现场调参 UI 开发和 3D 打印固定结构，实现激光打靶项目的完整联调。</p>
               <ul>
-                <li>角色：组员</li>
-                <li>重点：STM32 控制、视觉伺服、现场调参界面、机械结构固定</li>
+                <li>角色：组员，负责小车、机械结构与调参链路相关工作</li>
+                <li>技术：STM32、MaixCAM、视觉伺服、UI 调参、机械结构固定</li>
+                <li>成果：省二等奖</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <button class="project-toggle" type="button" aria-expanded="false">
+              <span>
+                <small>2025.04 - 2026.03 · 第一主持人 · 申报上海市创项目</small>
+                <strong>腾飞科创项目</strong>
+              </span>
+              <span class="toggle-icon" aria-hidden="true"></span>
+            </button>
+            <div class="project-detail">
+              <h3>基于 DV 事件相机的动态物体检测</h3>
+              <p>利用事件相机采集动态物体数据，结合脉冲神经网络（SNN）进行分析与识别，探索低延迟动态视觉感知方案，并进一步申报上海市创新项目。</p>
+              <ul>
+                <li>角色：第一主持人，负责项目设计、任务推进与结项材料组织</li>
+                <li>技术：DV 事件相机、SNN、动态物体检测、实时视觉感知</li>
+                <li>进展：腾飞科创结项，并申报上海市创项目</li>
               </ul>
             </div>
           </article>
@@ -171,28 +178,29 @@
         <div class="skill-matrix">
           <article>
             <h3>编程</h3>
-            <p>C/C++ · Python · Verilog</p>
+            <p>C/C++、Python、Verilog</p>
           </article>
           <article>
-            <h3>硬件</h3>
-            <p>FPGA 开发 · 电路设计 · 单片机 · 3D 打印</p>
+            <h3>硬件与嵌入式</h3>
+            <p>FPGA 开发、电路设计、单片机、STM32、MaixCAM、3D 打印</p>
           </article>
           <article>
             <h3>软件工具</h3>
-            <p>Matlab · VSCode · QT · Keil · SolidWorks · MaixVision</p>
+            <p>Matlab、VSCode、QT、Keil、SolidWorks、MaixVision</p>
           </article>
           <article>
             <h3>AI / ML</h3>
-            <p>SNN · YOLO · RoBERTa 微调 · SmolVLA 操作</p>
+            <p>SNN、YOLO、RoBERTa 微调、SmolVLA 操作</p>
           </article>
         </div>
       </section>
     </main>
 
     <!-- 页脚：版权信息与联系方式 -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <p>© 2026 董山</p>
       <a href="mailto:23307130011@m.fudan.edu.cn">23307130011@m.fudan.edu.cn</a>
+      <span>+86 173-2117-2051</span>
     </footer>
   </div>
 
